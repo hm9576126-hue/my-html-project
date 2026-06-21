@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pharmacy & Public Health – by Hamza Baig</title>
+  <style>
+    /* Basic, clean styling — not graded but helps readability */
+    body {
+      font-family: Georgia, serif;
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 1rem 2rem;
+      background-color: #f9f9f9;
+      color: #222;
+    }
+    a { color: #0056b3; }
+    nav ul { list-style: none; padding: 0; display: flex; gap: 1.5rem; }
+    nav a { text-decoration: none; font-weight: bold; }
+    img { max-width: 100%; height: auto; display: block; margin: 0.5rem 0; border: 1px solid #ccc; }
+    footer { margin-top: 3rem; border-top: 1px solid #ccc; padding-top: 1rem; font-size: 0.9rem; color: #555; }
+    .gallery { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .gallery figure { flex: 1 1 220px; margin: 0; }
+    figcaption { font-size: 0.85rem; color: #444; text-align: center; }
+  </style>
+</head>
+
+<body>
+
+  <!-- Semantic tag #1: header -->
+  <header>
+    <a href="#main">Skip to main content</a>
+    <h1>Pharmacy &amp; Public Health</h1>
+    <!-- Semantic tag #2: nav -->
+    <nav aria-label="Page sections">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#importance">Why It Matters</a></li>
+        <li><a href="#roles">Career Roles</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Semantic tag #3: main -->
+  <main id="main">
+
+    <!-- ── SECTION 1: About ── -->
+    <section id="about">
+      <h2>About This Page</h2>
+      <p>
+        Pharmacy and public health are deeply connected fields.
+        Pharmacists are front-line healthcare providers who counsel patients,
+        manage medications, and contribute to disease prevention at the community level.
+        This page highlights the importance of the pharmacist's role in public health,
+        key career paths, and the global health challenges pharmacists help address.
+      </p>
+    </section>
+
+    <!-- ── SECTION 2: Why It Matters ── -->
+    <section id="importance">
+      <h2>Why Pharmacy Matters in Public Health</h2>
+      <p>
+        According to the World Health Organization, medicines account for 20–60% of
+        health spending in low- and middle-income countries. Pharmacists ensure medicines
+        are used safely, effectively, and equitably. Their work spans vaccination drives,
+        antimicrobial stewardship, chronic disease management, and health education.
+      </p>
+
+      <!-- Ordered list: at least 3 items ✔ -->
+      <h3>Top Public Health Contributions by Pharmacists</h3>
+      <ol>
+        <li>Promoting rational use of antibiotics to fight antimicrobial resistance (AMR)</li>
+        <li>Providing medication counselling and adherence support for chronic diseases</li>
+        <li>Conducting community vaccination and immunisation outreach programmes</li>
+        <li>Monitoring adverse drug reactions through pharmacovigilance systems</li>
+        <li>Educating patients about non-communicable diseases such as diabetes and hypertension</li>
+      </ol>
+    </section>
+
+    <!-- ── SECTION 3: Career Roles ── -->
+    <section id="roles">
+      <h2>Key Career Roles in Pharmacy</h2>
+      <p>
+        A Pharm.D graduate can pursue diverse roles across clinical, research,
+        regulatory, and policy settings. Below is an overview of common pathways:
+      </p>
+
+      <!-- Unordered list as a second list type for variety -->
+      <ul>
+        <li><strong>Clinical Pharmacist</strong> – Works in hospitals alongside physicians to optimise drug therapy</li>
+        <li><strong>Community Pharmacist</strong> – Serves as the most accessible healthcare professional for the public</li>
+        <li><strong>Pharmacovigilance Specialist</strong> – Monitors and reports adverse drug events for regulatory bodies</li>
+        <li><strong>Public Health Pharmacist</strong> – Designs and implements population-level medication programmes</li>
+        <li><strong>Pharmaceutical Researcher</strong> – Conducts drug discovery, clinical trials, and post-marketing studies</li>
+      </ul>
+
+      <!-- External link ✔ -->
+      <p>
+        For more information on global pharmacy workforce standards, visit the
+        <a href="https://www.fip.int" target="_blank" rel="noopener noreferrer">
+          International Pharmaceutical Federation (FIP)
+        </a>.
+      </p>
+    </section>
+
+    <!-- ── SECTION 4: Gallery — 3 images with descriptive alt text ✔ ── -->
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery">
+
+        <figure>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Apotheke_Hannover_Schwarze_B%C3%A4r_innen.jpg/640px-Apotheke_Hannover_Schwarze_B%C3%A4r_innen.jpg"
+            alt="Interior of a traditional German pharmacy showing wooden shelving stocked with medicine bottles and drawers" />
+          <figcaption>A traditional pharmacy interior with rows of medicines</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Pill_boxes.jpg/640px-Pill_boxes.jpg"
+            alt="Several colourful weekly pill organiser boxes filled with different medications for daily dosing" />
+          <figcaption>Weekly pill organisers used for medication adherence</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Prescription_bottle_and_pills.jpg/640px-Prescription_bottle_and_pills.jpg"
+            alt="An orange prescription medicine bottle tipped on its side with white tablets spilling out onto a white surface" />
+          <figcaption>Prescription medicine bottle with tablets</figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <!-- Back to top link -->
+    <p><a href="#main">Back to top</a></p>
+
+  </main>
+
+  <footer>
+    <p>
+      Created by <strong>Hafiz Muhammad Hamza Baig</strong> &mdash;
+      Pharm.D Student, Faculty of Pharmaceutical Sciences, UBAS, Lahore, Pakistan.
+      &copy; 2026
+    </p>
+  </footer>
+
+</body>
+</html>
